@@ -43,7 +43,7 @@ const Home = React.forwardRef<HTMLDivElement>((props, ref) => {
   return (
     
     <><div ref={ref} className="wrapper">
-
+      
   <img src = '/src/components/features/home/me.jpg'></img>
 
         
