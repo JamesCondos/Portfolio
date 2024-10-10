@@ -44,14 +44,11 @@ const Home = React.forwardRef<HTMLDivElement>((props, ref) => {
     
     <><div ref={ref} className="wrapper">
 
-  <img src = "/src/components/features/home/me.jpg"></img>
+  <img src = 'https://www.qries.com/images/banner_logo.png'></img>
 
         
 
       <MotionBlock className="arrow" delay={0.2} />
-
-    
-
 
       <div className="bundle">
         <MotionBlock className="chunck" delay={0.2}>
@@ -84,9 +81,6 @@ const Home = React.forwardRef<HTMLDivElement>((props, ref) => {
         <MotionBlock className="name" delay={1.2}>
           <MotionBlock as="h1" className="title" delay={1.2}>
             James Condos {/* <- 🔄 Change this to your name or brand */}
-
-           
-
           </MotionBlock>
           <MotionBlock as="h2" className="subtitle" delay={1.2}>
             Electrical Engineer and Physicist {/* <- 🔄 Update this to reflect your role */}
