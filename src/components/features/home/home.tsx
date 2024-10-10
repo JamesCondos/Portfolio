@@ -41,7 +41,10 @@ const MotionBlock = ({ className, delay, children }: MotionBlockProps) => (
 
 const Home = React.forwardRef<HTMLDivElement>((props, ref) => {
   return (
+    
     <><div ref={ref} className="wrapper">
+
+  <img src = "/src/components/features/home/me.jpg"></img>
 
         
 
@@ -81,6 +84,9 @@ const Home = React.forwardRef<HTMLDivElement>((props, ref) => {
         <MotionBlock className="name" delay={1.2}>
           <MotionBlock as="h1" className="title" delay={1.2}>
             James Condos {/* <- 🔄 Change this to your name or brand */}
+
+           
+
           </MotionBlock>
           <MotionBlock as="h2" className="subtitle" delay={1.2}>
             Electrical Engineer and Physicist {/* <- 🔄 Update this to reflect your role */}
@@ -105,7 +111,15 @@ const Home = React.forwardRef<HTMLDivElement>((props, ref) => {
           <MotionBlock className="four-line-secondary-V4" delay={0.8} />
           <MotionBlock className="four-line-tertiary-V4" delay={1} />
           <MotionBlock className="four-line-prevention-V4" delay={1.2} />
+          
         </MotionBlock>
+
+
+     
+
+    
+
+        
 
 
 
