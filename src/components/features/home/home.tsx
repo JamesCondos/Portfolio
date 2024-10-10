@@ -44,7 +44,7 @@ const Home = React.forwardRef<HTMLDivElement>((props, ref) => {
     
     <><div ref={ref} className="wrapper">
 
-  <img src = 'https://www.qries.com/images/banner_logo.png'></img>
+  <img src = "src/components/features/home/me.jpg"></img>
 
         
 
