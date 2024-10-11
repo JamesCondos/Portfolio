@@ -20,7 +20,7 @@ const About = React.forwardRef<HTMLDivElement>((props, ref) => {
         <br />
 
         <ul className = "actions">
-										<li><a href="\JamesCondos_Resume_Aug_2024.pdf" download className ="button">Download my Resume!</a></li>
+										<li><a href="JamesCondos.github.io/JamesCondos_Resume_Aug_2024.pdf" download className ="button">PDF.</a></li>
 				</ul>
        
       </p>
