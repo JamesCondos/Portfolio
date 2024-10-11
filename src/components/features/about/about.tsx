@@ -21,7 +21,7 @@ const About = React.forwardRef<HTMLDivElement>((props, ref) => {
 
         
 
-        <a href="src/components/features/works/JamesCondos_Resume_Aug_2024.pdf" download="Rishabh's Resume" target='_blank'>
+        <a href="src/components/features/works/JamesCondos_Resume_Aug_2024.pdf" download="James' Resume" target='_blank'>
           <button type="button" className ="button">Download Resume</button>
         </a>
        
