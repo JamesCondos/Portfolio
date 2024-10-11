@@ -19,9 +19,11 @@ const About = React.forwardRef<HTMLDivElement>((props, ref) => {
         <br />
         <br />
 
-        <ul className = "actions">
-										<li><a href="src/components/features/works/JamesCondos_Resume_Aug_2024.pdf" download className ="button">Download my Resume!</a></li>
-				</ul>
+        
+
+        <a href="src/components/features/works/JamesCondos_Resume_Aug_2024.pdf" download="Rishabh's Resume" target='_blank'>
+          <button type="button" className ="button">Download Resume</button>
+        </a>
        
       </p>
 
